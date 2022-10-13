@@ -1,0 +1,19 @@
+{
+  "name": "Project Mentoring",
+  "version": "0.0.1",
+  "description": "Proposition to mentoring based in projects",
+  "main": "index.js",
+  "authors": {
+    "name": "Isaac Mujica",
+    "email": "isaacmujicarivas@gmail.com"
+  },
+  "repository": "https://github.com/IsaacMujica/project-mentoring.git/Project Mentoring",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  }
+}
