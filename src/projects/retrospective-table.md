@@ -20,11 +20,11 @@ En esta sección mostraremos los retos a seguir según el seniority del Menty o 
 ### Semi Senior
   * Haciendo uso del LocalStorage manten la información gestionada aunque el navegador sea recargado
 
-### Senior
+### Semi Senior Advance
   * Implementa React
   * Implementa TypeScript
 
-### Senior Advance
+### Senior
   * Realizar una historia de usuario
   * Hacer uso de flujo de Scrum Master
   * Planear las pruebas unitarias
