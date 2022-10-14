@@ -1,4 +1,4 @@
-# Clasificación de actividades según el seniority
+<!-- # Clasificación de actividades según el seniority
 En esta sección mostraremos los retos a seguir según el seniority del Menty o de lo que desee practicar
 
 ## Training
@@ -22,4 +22,4 @@ En esta sección mostraremos los retos a seguir según el seniority del Menty o 
 ## Senior Advance
   - Realizar una historia de usuario
   - Hacer uso de flujo de Scrum Master
-  - Planear las pruebas unitarias
+  - Planear las pruebas unitarias -->

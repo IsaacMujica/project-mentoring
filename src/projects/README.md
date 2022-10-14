@@ -2,7 +2,7 @@
 actionText: Tablero retrospectivo →
 actionLink: /projects/retrospective-table
 ---
-# Leonidas Esteban - Tablero retrospectivo
+# Introducción a Tablero retrospectivo
 
 ## Descripción
 Bienvenido al área de proyectos, donde aprenderás a ir desarrollando tus habilidades como profesional mediante la construcción de proyectos.

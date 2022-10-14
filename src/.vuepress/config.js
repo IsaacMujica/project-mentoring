@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Project Mentoring',
+  title: 'GlobFolio',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -36,13 +36,13 @@ module.exports = {
     sidebarDepth: 2,
     nav: [
       /*{
-        text: 'Guide',
-        link: '/guide/',
-      },
-      {
         text: 'Config',
         link: '/config/'
       },*/
+      {
+        text: 'Introducción',
+        link: '/roadmap/',
+      },
       {
         text: 'Proyectos',
         link: '/projects/'
@@ -59,15 +59,27 @@ module.exports = {
           ]
         }
       ],*/
+      '/roadmap/': [
+        {
+          title: 'Introducción',
+          collapsable: true,
+          children: [
+            '',
+            '../projects/',
+            '../projects/retrospective-table',
+            '../projects/demo',
+          ]
+        }
+      ],
       '/projects/': [
         {
           title: 'Proyectos',
-          collapsable: false,
+          collapsable: true,
           children: [
+            '../roadmap/',
             '',
             'retrospective-table',
             'demo',
-            /*'level',*/
           ]
         }
       ],
