@@ -4,11 +4,11 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'Vuepress Docs Boilerplate',
+  title: 'Project Mentoring',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
-  description: description,
+  description: 'Proposition to mentoring based in projects',
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -32,28 +32,42 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    smoothScroll: true,
+    sidebarDepth: 2,
     nav: [
-      {
+      /*{
         text: 'Guide',
         link: '/guide/',
       },
       {
         text: 'Config',
         link: '/config/'
-      },
+      },*/
       {
-        text: 'VuePress',
-        link: 'https://v1.vuepress.vuejs.org'
-      }
+        text: 'Proyectos',
+        link: '/projects/'
+      },
     ],
     sidebar: {
-      '/guide/': [
+      /*'/guide/': [
         {
           title: 'Guide',
           collapsable: false,
           children: [
             '',
             'using-vue',
+          ]
+        }
+      ],*/
+      '/projects/': [
+        {
+          title: 'Proyectos',
+          collapsable: false,
+          children: [
+            '',
+            'retrospective-table',
+            'demo',
+            /*'level',*/
           ]
         }
       ],
