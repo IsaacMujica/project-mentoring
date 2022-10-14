@@ -10,10 +10,15 @@
   "repository": "https://github.com/IsaacMujica/project-mentoring.git/Project Mentoring",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "vuepress build src",
+    "docs:build": "vuepress build"
   },
   "license": "MIT",
   "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "homepage": "https://github.com/IsaacMujica/project-mentoring#readme",
+  "dependencies": {
     "vuepress": "^1.5.3"
   }
 }
