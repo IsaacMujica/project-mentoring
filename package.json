@@ -10,6 +10,7 @@
   "repository": "https://github.com/IsaacMujica/project-mentoring.git",
   "scripts": {
     "dev": "vuepress dev src",
+    "dev:globfolio": "vuepress dev globfolio",
     "build": "vuepress build src",
     "docs:build": "vuepress build ."
   },
