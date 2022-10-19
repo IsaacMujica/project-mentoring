@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: markdown_logo.png
 tagline: Proposición para mentorear en base a proyectos
 actionText: Introducción →
 actionLink: /roadmap/
